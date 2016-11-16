@@ -87,7 +87,7 @@
 - (CABasicAnimation *)animationWithKeyPath:(NSString *)keyPath
 {
     CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:keyPath];
-    animation.duration = kFloat_AnimationDuration;
+    animation.duration = 1;
     animation.fillMode = kCAFillModeForwards;
     animation.removedOnCompletion = NO;
     animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
